@@ -1,0 +1,493 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot/"
+     xml:base="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:godot="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#attachedScript -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#attachedScript">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#Node"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#Script"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#belongsToProject -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#belongsToProject">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#Node"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#Project"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#emitsSignal -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#emitsSignal">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#Node"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#Signal"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#hasChild -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#hasChild">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#Node"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#Node"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#rootNode -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#rootNode">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#Scene"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#Node"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#usesResource -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#usesResource">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#Node"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#Resource"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#hasName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#hasName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#hasVersion -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#hasVersion">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#isBuiltIn -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#isBuiltIn">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#parameterCount -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#parameterCount">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#Control -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#Control">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#Node"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#DataType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#DataType"/>
+    
+
+
+    <!-- http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#Node -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#Node">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#attachedScript"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#Script"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#Resource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#Node2D -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#Node2D">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#Node"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#Node3D -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#Node3D">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#Node"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#Project -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#Project"/>
+    
+
+
+    <!-- http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#Resource -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#Resource">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#attachedScript"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#Script"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#Scene -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#Scene"/>
+    
+
+
+    <!-- http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#Script -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#Script">
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#Signal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#Signal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#Signal"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#BodyEntered -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#BodyEntered">
+        <rdf:type rdf:resource="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#Signal"/>
+        <godot:hasName>body_entered</godot:hasName>
+        <godot:isBuiltIn rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</godot:isBuiltIn>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#HealthBar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#HealthBar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#Control"/>
+        <godot:belongsToProject rdf:resource="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#MyProject"/>
+        <godot:hasName>HealthBar</godot:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#MainScene -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#MainScene">
+        <rdf:type rdf:resource="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#Scene"/>
+        <godot:hasChild rdf:resource="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#HealthBar"/>
+        <godot:hasChild rdf:resource="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#PlayerScene"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#MyProject -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#MyProject">
+        <rdf:type rdf:resource="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#Project"/>
+        <godot:hasVersion>4.3</godot:hasVersion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#PlayerScene -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#PlayerScene">
+        <rdf:type rdf:resource="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#Scene"/>
+        <godot:rootNode rdf:resource="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#PlayerSprite"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#PlayerScript -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#PlayerScript">
+        <rdf:type rdf:resource="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#Script"/>
+        <godot:hasName>player.gd</godot:hasName>
+        <godot:isBuiltIn rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</godot:isBuiltIn>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#PlayerSprite -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#PlayerSprite">
+        <rdf:type rdf:resource="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#Node2D"/>
+        <godot:attachedScript rdf:resource="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#PlayerScript"/>
+        <godot:belongsToProject rdf:resource="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#MyProject"/>
+        <godot:emitsSignal rdf:resource="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#BodyEntered"/>
+        <godot:usesResource rdf:resource="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#PlayerTexture"/>
+        <godot:hasName>Player</godot:hasName>
+        <godot:isBuiltIn rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</godot:isBuiltIn>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#PlayerTexture -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#PlayerTexture">
+        <rdf:type rdf:resource="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#Resource"/>
+        <godot:hasName>player.png</godot:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#EnemyModel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#EnemyModel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#Node3D"/>
+        <godot:attachedScript rdf:resource="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#EnemyScript"/>
+        <godot:belongsToProject rdf:resource="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#MyProject"/>
+        <godot:emitsSignal rdf:resource="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#BodyEntered"/>
+        <godot:usesResource rdf:resource="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#EnemyMesh"/>
+        <godot:hasName>EnemyModel</godot:hasName>
+        <godot:isBuiltIn rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</godot:isBuiltIn>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#EnemyScript -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#EnemyScript">
+        <rdf:type rdf:resource="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#Script"/>
+        <godot:hasName>enemy.gd</godot:hasName>
+        <godot:isBuiltIn rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</godot:isBuiltIn>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#EnemyMesh -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#EnemyMesh">
+        <rdf:type rdf:resource="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#Resource"/>
+        <godot:hasName>enemy_model.glb</godot:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#EnemyScene -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#EnemyScene">
+        <rdf:type rdf:resource="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#Scene"/>
+        <godot:rootNode rdf:resource="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#EnemyModel"/>
+        <godot:hasName>enemy.tscn</godot:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#Camera3D -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#Camera3D">
+        <rdf:type rdf:resource="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#Node3D"/>
+        <godot:belongsToProject rdf:resource="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#MyProject"/>
+        <godot:hasName>MainCamera</godot:hasName>
+        <godot:isBuiltIn rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</godot:isBuiltIn>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#PauseMenu -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#PauseMenu">
+        <rdf:type rdf:resource="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#Control"/>
+        <godot:attachedScript rdf:resource="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#PauseMenuScript"/>
+        <godot:belongsToProject rdf:resource="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#MyProject"/>
+        <godot:emitsSignal rdf:resource="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#Pressed"/>
+        <godot:hasName>PauseMenu</godot:hasName>
+        <godot:isBuiltIn rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</godot:isBuiltIn>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#PauseMenuScript -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#PauseMenuScript">
+        <rdf:type rdf:resource="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#Script"/>
+        <godot:hasName>pause_menu.gd</godot:hasName>
+        <godot:isBuiltIn rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</godot:isBuiltIn>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#Pressed -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#Pressed">
+        <rdf:type rdf:resource="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#Signal"/>
+        <godot:hasName>pressed</godot:hasName>
+        <godot:isBuiltIn rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</godot:isBuiltIn>
+        <godot:parameterCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</godot:parameterCount>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#Timeout -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#Timeout">
+        <rdf:type rdf:resource="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#Signal"/>
+        <godot:hasName>timeout</godot:hasName>
+        <godot:isBuiltIn rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</godot:isBuiltIn>
+        <godot:parameterCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</godot:parameterCount>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#BackgroundMusic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#BackgroundMusic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#Resource"/>
+        <godot:hasName>background_music.ogg</godot:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#GameTheme -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#GameTheme">
+        <rdf:type rdf:resource="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#Resource"/>
+        <godot:hasName>theme.tres</godot:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#Vector2Type -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#Vector2Type">
+        <rdf:type rdf:resource="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#DataType"/>
+        <godot:hasName>Vector2</godot:hasName>
+        <godot:isBuiltIn rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</godot:isBuiltIn>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#StringType -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#StringType">
+        <rdf:type rdf:resource="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#DataType"/>
+        <godot:hasName>String</godot:hasName>
+        <godot:isBuiltIn rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</godot:isBuiltIn>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#WorldEnvironment -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#WorldEnvironment">
+        <rdf:type rdf:resource="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#Node3D"/>
+        <godot:belongsToProject rdf:resource="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#MyProject"/>
+        <godot:hasName>WorldEnvironment</godot:hasName>
+        <godot:isBuiltIn rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</godot:isBuiltIn>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#ScoreLabel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#ScoreLabel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#Control"/>
+        <godot:belongsToProject rdf:resource="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#MyProject"/>
+        <godot:hasChild rdf:resource="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#HealthBar"/>
+        <godot:hasName>ScoreLabel</godot:hasName>
+        <godot:isBuiltIn rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</godot:isBuiltIn>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#MainGameScript -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#MainGameScript">
+        <rdf:type rdf:resource="http://www.semanticweb.org/conormcdr/ontologies/2026/3/godot#Script"/>
+        <godot:hasName>main.gd</godot:hasName>
+        <godot:isBuiltIn rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</godot:isBuiltIn>
+    </owl:NamedIndividual>
+
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
